@@ -1,0 +1,14 @@
+# Boa prática: “ancorar” a versão do airflow para o pip não tentar mudar
+apache-airflow==3.0.0
+
+pandas
+requests==2.32.3
+openpyxl==3.1.5
+gspread==6.0.0
+
+# Providers
+apache-airflow-providers-google
+apache-airflow-providers-oracle
+
+# Driver Oracle
+oracledb
